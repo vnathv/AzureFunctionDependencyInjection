@@ -7,9 +7,9 @@ Support for dependency injection begins with Azure Functions 2.x.
 
 Before you can use dependency injection, you must install the following NuGet packages:
 
- # Microsoft.Azure.Functions.Extensions
+  Microsoft.Azure.Functions.Extensions
 
- # Microsoft.NET.Sdk.Functions package version 1.0.28 or later
+  Microsoft.NET.Sdk.Functions package version 1.0.28 or later
   
  # Register services
   
