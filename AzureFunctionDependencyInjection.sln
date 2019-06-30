@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionDependencyInjection", "AzureFunctionDependencyInjection\AzureFunctionDependencyInjection.csproj", "{08CBF790-D163-4E88-A52A-EACB8F60D533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionDependencyInjection", "AzureFunctionDependencyInjection\AzureFunctionDependencyInjection.csproj", "{08CBF790-D163-4E88-A52A-EACB8F60D533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Provider", "Employee.Provider\Employee.Provider.csproj", "{50EE5573-9E4E-4A1A-97F2-120EEBAEAC11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee.Provider", "Employee.Provider\Employee.Provider.csproj", "{50EE5573-9E4E-4A1A-97F2-120EEBAEAC11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Repository", "Employee.Repository\Employee.Repository.csproj", "{96CCFD22-5ED7-4E98-AC16-764BF9BCDD09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee.Repository", "Employee.Repository\Employee.Repository.csproj", "{96CCFD22-5ED7-4E98-AC16-764BF9BCDD09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Model", "Employee.Model\Employee.Model.csproj", "{00D8E387-8DE2-46FA-A7CC-E7CBB417AE9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee.Model", "Employee.Model\Employee.Model.csproj", "{00D8E387-8DE2-46FA-A7CC-E7CBB417AE9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.IoC", "Employee.IoC\Employee.IoC.csproj", "{9509C019-68AB-4F49-AC89-ABA56C00DC42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{00D8E387-8DE2-46FA-A7CC-E7CBB417AE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00D8E387-8DE2-46FA-A7CC-E7CBB417AE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00D8E387-8DE2-46FA-A7CC-E7CBB417AE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9509C019-68AB-4F49-AC89-ABA56C00DC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9509C019-68AB-4F49-AC89-ABA56C00DC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9509C019-68AB-4F49-AC89-ABA56C00DC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9509C019-68AB-4F49-AC89-ABA56C00DC42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
