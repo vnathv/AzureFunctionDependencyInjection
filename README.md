@@ -1,5 +1,7 @@
 # AzureFunctionDependencyInjection
 
+This code sample demonstrates dependency in Azure function.
+
 Azure Functions supports the dependency injection (DI) software design pattern, which is a technique to achieve Inversion of Control (IoC) between classes and their dependencies.
 Azure Functions builds on top of the ASP.NET Core Dependency Injection features.
 
